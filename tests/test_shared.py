@@ -1,7 +1,8 @@
 import pytest
 
 import sys
-sys.path.append("/uvainstallablepackage/shared")
+#sys.path.append("/uvainstallablepackage/shared")
+sys.path.append(".")
 
 import shared as sh
 sh.afunction()
